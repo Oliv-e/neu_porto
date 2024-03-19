@@ -1,0 +1,25 @@
+@media screen and (max-width: 720px) {
+    .container {
+        display: none;
+    }
+}
+/* single */
+.love-logo {
+    width: 50px;
+}
+.button {
+    width: 100px;
+    text-align: center;
+}
+.justify {
+    text-align: justify;
+}
+.center {
+    text-align: center;
+}
+.padding {
+    padding: 10px;
+}
+.padding2 {
+    padding: 5px;
+}

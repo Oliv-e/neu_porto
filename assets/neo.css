@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+.pixel {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.doodle {
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Neo Brutalism Colors */
+* {
+    font-family: "Silkscreen", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+:root {
+    --black: #000000;
+    --skin: #FFDC8B;
+    --yellow: #F7CB46;
+    --green: #99E885;
+    --blue: #C0F7FE;
+    --pink: #FE90E8;
+    --white: #FFFFFF;
+}
+.bg-grid {
+    --grid-color: #00000090;
+    background-image:
+    linear-gradient(var(--grid-color) .1em, transparent .1em), linear-gradient(90deg, var(--grid-color) .1em, transparent .1em);
+    background-size: 1.5em 1.5em;
+}
+.bg-dot {
+    background:
+    linear-gradient(90deg, #FFFFFF calc(22px - 2.5px), transparent 1%) center / 22px 22px,
+    linear-gradient(#FFFFFF calc(22px - 2.5px), transparent 1%) center / 22px 22px,
+    var(--black);
+}
+.button {
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.box-shadow {
+    box-shadow: 2.5px 2.5px 0px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 2.5px 2.5px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 2.5px 2.5px 0px 0px rgba(0,0,0,1);
+}
+.border {
+    border: 1px solid var(--black);
+    border-radius: 5px;
+}
+.radius-0 {
+    border-radius: 0!important;
+}
+.bg-skin {
+    background-color: var(--skin);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-blue {
+    background-color: var(--blue);
+}
+.bg-pink {
+    background-color: var(--pink);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-black {
+    background-color: var(--black);
+}
+
